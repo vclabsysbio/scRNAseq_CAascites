@@ -7,7 +7,7 @@ This is a repository of scripts used for single-cell RNA-sequencing analysis in 
 Data used in this publication was deposited under ancession number GSEXXXXXXX
 
 ## Raw data processing
-(Cell Ranger)[https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger] version 3.0.1 was used for reads mappings and UMI quantification using the following command
+[Cell Ranger](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger) version 3.0.1 was used for reads mappings and UMI quantification using the following command
 
 ```
 cellranger count --id=<sample-id> --transcriptome=<refdata-cellranger-GRCh38-1.2.0> --fastqs=<fastq_path> --expect-cells=5000 --localcores=36 --localmem=256
@@ -25,24 +25,24 @@ The bioinformatic analyses of this work is divided into xxx steps:
 ## Packages used in this analysis
 
 R 3.6.0
-* Seurat (3.1.0)[https://github.com/satijalab/seurat]
-* sctransform (0.2.0)[https://github.com/ChristophH/sctransform]
-* SoupX (xxx)
-* DoubletFinder (2.0.1)[https://github.com/chris-mcginnis-ucsf/DoubletFinder]
-* ComplexHeatmap (2.0.0)[https://github.com/jokergoo/ComplexHeatmap]
-* dplyr (0.8.3)[https://dplyr.tidyverse.org/]
-* stringr (1.4.0)[https://stringr.tidyverse.org/]
-* ggplot2 (3.2.0)[https://ggplot2.tidyverse.org/]
-* ggrepel (0.8.1)[https://github.com/slowkow/ggrepel]
-* dendextend (1.12.0)[https://github.com/talgalili/dendextend]
-* fgsea (1.10.0)[https://github.com/ctlab/fgsea]
-* reticulate (1.12)[https://rstudio.github.io/reticulate/]
+* [Seurat (3.1.0)](https://github.com/satijalab/seurat)
+* [sctransform (0.2.0)](https://github.com/ChristophH/sctransform)
+* [SoupX (1.3.8)](https://github.com/constantAmateur/SoupX)
+* [DoubletFinder (2.0.1)](https://github.com/chris-mcginnis-ucsf/DoubletFinder)
+* [ComplexHeatmap (2.0.0)](https://github.com/jokergoo/ComplexHeatmap)
+* [dplyr (0.8.3)](https://dplyr.tidyverse.org/)
+* [stringr (1.4.0)](https://stringr.tidyverse.org/)
+* [ggplot2 (3.2.0)](https://ggplot2.tidyverse.org/)
+* [ggrepel (0.8.1)](https://github.com/slowkow/ggrepel)
+* [dendextend (1.12.0)](https://github.com/talgalili/dendextend)
+* [fgsea (1.10.0)](https://github.com/ctlab/fgsea)
+* [reticulate (1.12)](https://rstudio.github.io/reticulate/)
 
 Python 3.6.9
-* numpy (1.17.4)[https://numpy.org/]
-* umap-learn (0.3.10)[https://umap-learn.readthedocs.io/]
-* leidenalg (0.7.0)[https://github.com/vtraag/leidenalg]
-* python_igraph (0.7.1)[https://igraph.org/python/]
+* [numpy (1.17.4)](https://numpy.org/)
+* [umap-learn (0.3.10)](https://umap-learn.readthedocs.io/)
+* [leidenalg (0.7.0)](https://github.com/vtraag/leidenalg)
+* [python_igraph (0.7.1)](https://igraph.org/python/)
 
 
 Data analyses were performed on Ubuntu 16.04.6 LTS
