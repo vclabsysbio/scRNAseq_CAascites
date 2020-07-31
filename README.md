@@ -14,12 +14,12 @@ cellranger count --id=<sample-id> --transcriptome=<refdata-cellranger-GRCh38-1.2
 ```
 
 ## R Analysis overview
-The bioinformatic analyses of this work is divided into xxx steps:
-  **1. Data preprocessing:** This part described how individual sample was QC and processed before data integration.
-  **2. Data integration:** This part described how samples were integrated
-  **3. Downstream analysis:** This part included downstream analysis in Fig. 2 & 3
-  **4. Epithelial cells subset analysis:** This part shows epithelial cells subset analysis in Fig. 4 and 5A
-  **5. Integrated with public dataset:** This part shows data integration with normal intestine single-cell dataset as shown in Fig.5B
+The bioinformatic analyses of this work is divided into 5 steps:
+1. Data preprocessing: This part described how individual sample was QC and processed before data integration.
+2. Data integration: This part described how samples were integrated
+3. Downstream analysis: This part included downstream analysis in Fig. 2 & 3
+4. Epithelial cells subset analysis: This part shows epithelial cells subset analysis in Fig. 4 and 5A
+5. Integrated with public dataset: This part shows data integration with normal intestine single-cell dataset as shown in Fig.5B
 
 
 ## Packages used in this analysis
