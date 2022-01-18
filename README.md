@@ -1,10 +1,12 @@
 # scRNAseq_CAascites
 
 ## Description
-This is a repository of scripts used for single-cell RNA-sequencing analysis in the publication entitled *"Capturing tumor heterogeneity in pre- and post-chemotherapy colorectal cancer ascites-derived cells using single-cell RNA-sequencing"*
+This is a repository of scripts used for single-cell RNA-sequencing analysis in the publication entitled *"Capturing tumor heterogeneity in pre- and post-chemotherapy colorectal cancer ascites-derived cells using single-cell RNA-sequencing"* 
+https://doi.org/10.1042/BSR20212093
+
 
 ## Data
-Data used in this publication was deposited under ancession number GSEXXXXXXX
+Data used in this publication was deposited under ancession number GSE155953
 
 ## Raw data processing
 [Cell Ranger](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger) version 3.0.1 was used for reads mappings and UMI quantification using the following command
